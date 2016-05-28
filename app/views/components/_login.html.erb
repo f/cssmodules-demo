@@ -1,0 +1,12 @@
+<% component :login do |m| %>
+  <div class="<%= m.style(:title) %>">
+    Do Login!
+    <button class="<%= m.style(:close) %>">Close</button>
+  </div>
+<% end %>
+
+<%= style_for :login, :title %>
+
+<% component :product do |comp| %>
+  <div class="<%= comp.style(:button) %>">Selam</div>
+<% end %>
